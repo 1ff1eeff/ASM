@@ -37,10 +37,10 @@
             Settings = new Button();
             tabPage1 = new TabPage();
             tabControl1 = new TabControl();
+            tabPage2 = new TabPage();
             splitContainer1 = new SplitContainer();
             splitContainer2 = new SplitContainer();
             label1 = new Label();
-            tabPage2 = new TabPage();
             tabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -138,7 +138,7 @@
             tabPage1.Location = new Point(4, 4);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(539, 349);
+            tabPage1.Size = new Size(539, 344);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Карта организации №1";
             // 
@@ -151,8 +151,17 @@
             tabControl1.Location = new Point(0, 0);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(547, 377);
+            tabControl1.Size = new Size(547, 372);
             tabControl1.TabIndex = 6;
+            // 
+            // tabPage2
+            // 
+            tabPage2.BackColor = SystemColors.Control;
+            tabPage2.Location = new Point(4, 4);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Size = new Size(542, 344);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "Карта организации №2";
             // 
             // splitContainer1
             // 
@@ -194,26 +203,18 @@
             // 
             splitContainer2.Panel2.Controls.Add(label1);
             splitContainer2.Size = new Size(547, 408);
-            splitContainer2.SplitterDistance = 377;
+            splitContainer2.SplitterDistance = 372;
             splitContainer2.TabIndex = 7;
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Bottom;
-            label1.Location = new Point(10, 7);
+            label1.Dock = DockStyle.Fill;
+            label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(522, 15);
+            label1.Size = new Size(547, 32);
             label1.TabIndex = 0;
             label1.Text = "Всего узлов:    0           Состояние ОК:    0          Обнаружена проблема:    0          Отключены:    0";
-            // 
-            // tabPage2
-            // 
-            tabPage2.BackColor = SystemColors.Control;
-            tabPage2.Location = new Point(4, 4);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Size = new Size(539, 349);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "Карта организации №2";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 

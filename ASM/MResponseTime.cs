@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace ASM
 {
-    public partial class CreateMap : Form
+    public partial class MResponseTime : Form
     {
-        public CreateMap()
+        public MResponseTime()
         {
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }

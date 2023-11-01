@@ -48,6 +48,7 @@
             textBox7 = new TextBox();
             textBox8 = new TextBox();
             button5 = new Button();
+            button6 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -132,17 +133,17 @@
             // 
             // button3
             // 
-            button3.Location = new Point(201, 416);
+            button3.Location = new Point(12, 416);
             button3.Name = "button3";
-            button3.Size = new Size(92, 23);
+            button3.Size = new Size(158, 23);
             button3.TabIndex = 17;
-            button3.Text = "Сканировать";
+            button3.Text = "Сканировать диапазоны";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(299, 416);
+            button4.Location = new Point(298, 447);
             button4.Name = "button4";
             button4.Size = new Size(75, 23);
             button4.TabIndex = 18;
@@ -215,11 +216,22 @@
             button5.Text = "Определить";
             button5.UseVisualStyleBackColor = true;
             // 
+            // button6
+            // 
+            button6.Location = new Point(214, 447);
+            button6.Name = "button6";
+            button6.Size = new Size(75, 23);
+            button6.TabIndex = 36;
+            button6.Text = "ОК";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
             // CreateMap
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(386, 448);
+            ClientSize = new Size(386, 477);
+            Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(textBox5);
             Controls.Add(textBox6);
@@ -268,5 +280,6 @@
         private TextBox textBox7;
         private TextBox textBox8;
         private Button button5;
+        private Button button6;
     }
 }

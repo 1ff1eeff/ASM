@@ -85,16 +85,35 @@
             radioButton1 = new RadioButton();
             label14 = new Label();
             tabPage4 = new TabPage();
+            panel3 = new Panel();
+            button8 = new Button();
+            label24 = new Label();
+            textBox10 = new TextBox();
+            label23 = new Label();
+            textBox9 = new TextBox();
+            panel2 = new Panel();
+            label30 = new Label();
+            textBox13 = new TextBox();
+            button13 = new Button();
+            button12 = new Button();
+            panel1 = new Panel();
+            label28 = new Label();
+            comboBox2 = new ComboBox();
+            button10 = new Button();
+            button11 = new Button();
+            label29 = new Label();
+            textBox12 = new TextBox();
+            checkBox14 = new CheckBox();
+            radioButton4 = new RadioButton();
+            radioButton3 = new RadioButton();
+            label27 = new Label();
+            label26 = new Label();
             comboBox1 = new ComboBox();
             button9 = new Button();
             textBox11 = new TextBox();
             label25 = new Label();
-            button8 = new Button();
-            label24 = new Label();
-            label23 = new Label();
             checkBox13 = new CheckBox();
             label22 = new Label();
-            textBox9 = new TextBox();
             textBox8 = new TextBox();
             textBox7 = new TextBox();
             label21 = new Label();
@@ -110,22 +129,6 @@
             folderBrowserDialog3 = new FolderBrowserDialog();
             splitContainer1 = new SplitContainer();
             toolTip1 = new ToolTip(components);
-            label26 = new Label();
-            label27 = new Label();
-            radioButton3 = new RadioButton();
-            label28 = new Label();
-            comboBox2 = new ComboBox();
-            button10 = new Button();
-            button11 = new Button();
-            label29 = new Label();
-            textBox12 = new TextBox();
-            checkBox14 = new CheckBox();
-            radioButton4 = new RadioButton();
-            textBox13 = new TextBox();
-            label30 = new Label();
-            button12 = new Button();
-            textBox10 = new TextBox();
-            button13 = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -136,6 +139,9 @@
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             tabPage4.SuspendLayout();
+            panel3.SuspendLayout();
+            panel2.SuspendLayout();
+            panel1.SuspendLayout();
             tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -710,18 +716,10 @@
             // tabPage4
             // 
             tabPage4.BackColor = SystemColors.Control;
-            tabPage4.Controls.Add(button13);
-            tabPage4.Controls.Add(button12);
-            tabPage4.Controls.Add(textBox13);
-            tabPage4.Controls.Add(label30);
+            tabPage4.Controls.Add(panel3);
+            tabPage4.Controls.Add(panel2);
+            tabPage4.Controls.Add(panel1);
             tabPage4.Controls.Add(radioButton4);
-            tabPage4.Controls.Add(checkBox14);
-            tabPage4.Controls.Add(textBox12);
-            tabPage4.Controls.Add(label29);
-            tabPage4.Controls.Add(button11);
-            tabPage4.Controls.Add(button10);
-            tabPage4.Controls.Add(comboBox2);
-            tabPage4.Controls.Add(label28);
             tabPage4.Controls.Add(radioButton3);
             tabPage4.Controls.Add(label27);
             tabPage4.Controls.Add(label26);
@@ -729,13 +727,8 @@
             tabPage4.Controls.Add(button9);
             tabPage4.Controls.Add(textBox11);
             tabPage4.Controls.Add(label25);
-            tabPage4.Controls.Add(button8);
-            tabPage4.Controls.Add(label24);
-            tabPage4.Controls.Add(textBox10);
-            tabPage4.Controls.Add(label23);
             tabPage4.Controls.Add(checkBox13);
             tabPage4.Controls.Add(label22);
-            tabPage4.Controls.Add(textBox9);
             tabPage4.Controls.Add(textBox8);
             tabPage4.Controls.Add(textBox7);
             tabPage4.Controls.Add(label21);
@@ -747,6 +740,226 @@
             tabPage4.Size = new Size(411, 460);
             tabPage4.TabIndex = 3;
             tabPage4.Text = "E-mail и SMS";
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(button8);
+            panel3.Controls.Add(label24);
+            panel3.Controls.Add(textBox10);
+            panel3.Controls.Add(label23);
+            panel3.Controls.Add(textBox9);
+            panel3.Enabled = false;
+            panel3.Location = new Point(131, 121);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(277, 51);
+            panel3.TabIndex = 56;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(224, 17);
+            button8.Name = "button8";
+            button8.Size = new Size(48, 25);
+            button8.TabIndex = 34;
+            button8.Text = "👁";
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new Point(117, 1);
+            label24.Name = "label24";
+            label24.Size = new Size(49, 15);
+            label24.TabIndex = 33;
+            label24.Text = "Пароль";
+            // 
+            // textBox10
+            // 
+            textBox10.Location = new Point(118, 19);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(100, 23);
+            textBox10.TabIndex = 32;
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(11, 1);
+            label23.Name = "label23";
+            label23.Size = new Size(41, 15);
+            label23.TabIndex = 31;
+            label23.Text = "Логин";
+            // 
+            // textBox9
+            // 
+            textBox9.Location = new Point(11, 19);
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(100, 23);
+            textBox9.TabIndex = 28;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(label30);
+            panel2.Controls.Add(textBox13);
+            panel2.Controls.Add(button13);
+            panel2.Controls.Add(button12);
+            panel2.Enabled = false;
+            panel2.Location = new Point(11, 388);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(391, 72);
+            panel2.TabIndex = 55;
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(0, 0);
+            label30.Name = "label30";
+            label30.Size = new Size(129, 15);
+            label30.TabIndex = 50;
+            label30.Text = "SMS-шлюз оператора";
+            // 
+            // textBox13
+            // 
+            textBox13.Location = new Point(0, 18);
+            textBox13.Name = "textBox13";
+            textBox13.Size = new Size(229, 23);
+            textBox13.TabIndex = 51;
+            // 
+            // button13
+            // 
+            button13.Location = new Point(0, 47);
+            button13.Name = "button13";
+            button13.Size = new Size(229, 23);
+            button13.TabIndex = 53;
+            button13.Text = "Отправить пробное сообщение";
+            button13.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            button12.Location = new Point(238, 17);
+            button12.Name = "button12";
+            button12.Size = new Size(139, 23);
+            button12.TabIndex = 52;
+            button12.Text = "Настройки E-mail . . .";
+            button12.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(label28);
+            panel1.Controls.Add(comboBox2);
+            panel1.Controls.Add(button10);
+            panel1.Controls.Add(button11);
+            panel1.Controls.Add(label29);
+            panel1.Controls.Add(textBox12);
+            panel1.Controls.Add(checkBox14);
+            panel1.Location = new Point(11, 275);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(394, 89);
+            panel1.TabIndex = 54;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(0, 0);
+            label28.Name = "label28";
+            label28.Size = new Size(66, 15);
+            label28.TabIndex = 42;
+            label28.Text = "COM-порт";
+            // 
+            // comboBox2
+            // 
+            comboBox2.Items.AddRange(new object[] { "COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9", "COM10", "COM11", "COM12", "COM13", "COM14", "COM15", "COM16", "COM17", "COM18", "COM19", "COM20", "COM21", "COM22", "COM23", "COM24", "COM25", "COM26", "COM27", "COM28", "COM29", "COM30", "COM31", "COM32" });
+            comboBox2.Location = new Point(0, 18);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(76, 23);
+            comboBox2.TabIndex = 43;
+            comboBox2.Text = "COM4";
+            // 
+            // button10
+            // 
+            button10.Location = new Point(82, 17);
+            button10.Name = "button10";
+            button10.Size = new Size(125, 23);
+            button10.TabIndex = 44;
+            button10.Text = "Определить порт";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(213, 18);
+            button11.Name = "button11";
+            button11.Size = new Size(125, 23);
+            button11.TabIndex = 45;
+            button11.Text = "Подключиться . . .";
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Location = new Point(0, 44);
+            label29.Name = "label29";
+            label29.Size = new Size(67, 15);
+            label29.TabIndex = 46;
+            label29.Text = "SMS-центр";
+            // 
+            // textBox12
+            // 
+            textBox12.Location = new Point(0, 62);
+            textBox12.Name = "textBox12";
+            textBox12.Size = new Size(172, 23);
+            textBox12.TabIndex = 47;
+            // 
+            // checkBox14
+            // 
+            checkBox14.AutoSize = true;
+            checkBox14.Location = new Point(187, 64);
+            checkBox14.Name = "checkBox14";
+            checkBox14.Size = new Size(190, 19);
+            checkBox14.TabIndex = 48;
+            checkBox14.Text = "Текст сообщения в транслите";
+            checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Location = new Point(11, 363);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(258, 19);
+            radioButton4.TabIndex = 49;
+            radioButton4.Text = "Отправлять SMS через E-mail (SMS-шлюз)";
+            radioButton4.UseVisualStyleBackColor = true;
+            radioButton4.CheckedChanged += radioButton4_CheckedChanged;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Checked = true;
+            radioButton3.Location = new Point(11, 250);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(229, 19);
+            radioButton3.TabIndex = 41;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Отправлять SMS через GSM-телефон";
+            radioButton3.UseVisualStyleBackColor = true;
+            radioButton3.CheckedChanged += radioButton3_CheckedChanged;
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label27.ForeColor = SystemColors.Highlight;
+            label27.Location = new Point(8, 211);
+            label27.Name = "label27";
+            label27.Size = new Size(259, 25);
+            label27.TabIndex = 40;
+            label27.Text = "Параметры отправки SMS";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new Point(224, 96);
+            label26.Name = "label26";
+            label26.Size = new Size(35, 15);
+            label26.TabIndex = 39;
+            label26.Text = "Порт";
             // 
             // comboBox1
             // 
@@ -784,33 +997,6 @@
             label25.TabIndex = 35;
             label25.Text = "Тема письма";
             // 
-            // button8
-            // 
-            button8.Location = new Point(355, 138);
-            button8.Name = "button8";
-            button8.Size = new Size(48, 25);
-            button8.TabIndex = 34;
-            button8.Text = "👁";
-            button8.UseVisualStyleBackColor = true;
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Location = new Point(248, 122);
-            label24.Name = "label24";
-            label24.Size = new Size(49, 15);
-            label24.TabIndex = 33;
-            label24.Text = "Пароль";
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Location = new Point(142, 122);
-            label23.Name = "label23";
-            label23.Size = new Size(41, 15);
-            label23.TabIndex = 31;
-            label23.Text = "Логин";
-            // 
             // checkBox13
             // 
             checkBox13.AutoSize = true;
@@ -820,6 +1006,7 @@
             checkBox13.TabIndex = 30;
             checkBox13.Text = "Авторизация";
             checkBox13.UseVisualStyleBackColor = true;
+            checkBox13.CheckedChanged += checkBox13_CheckedChanged;
             // 
             // label22
             // 
@@ -829,13 +1016,6 @@
             label22.Size = new Size(74, 15);
             label22.TabIndex = 29;
             label22.Text = "Соединение";
-            // 
-            // textBox9
-            // 
-            textBox9.Location = new Point(142, 140);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(100, 23);
-            textBox9.TabIndex = 28;
             // 
             // textBox8
             // 
@@ -959,151 +1139,6 @@
             splitContainer1.SplitterDistance = 488;
             splitContainer1.TabIndex = 20;
             // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Location = new Point(224, 96);
-            label26.Name = "label26";
-            label26.Size = new Size(35, 15);
-            label26.TabIndex = 39;
-            label26.Text = "Порт";
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label27.ForeColor = SystemColors.Highlight;
-            label27.Location = new Point(8, 211);
-            label27.Name = "label27";
-            label27.Size = new Size(259, 25);
-            label27.TabIndex = 40;
-            label27.Text = "Параметры отправки SMS";
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(11, 250);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(229, 19);
-            radioButton3.TabIndex = 41;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Отправлять SMS через GSM-телефон";
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.Location = new Point(11, 272);
-            label28.Name = "label28";
-            label28.Size = new Size(66, 15);
-            label28.TabIndex = 42;
-            label28.Text = "COM-порт";
-            // 
-            // comboBox2
-            // 
-            comboBox2.Items.AddRange(new object[] { "COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9", "COM10", "COM11", "COM12", "COM13", "COM14", "COM15", "COM16", "COM17", "COM18", "COM19", "COM20", "COM21", "COM22", "COM23", "COM24", "COM25", "COM26", "COM27", "COM28", "COM29", "COM30", "COM31", "COM32" });
-            comboBox2.Location = new Point(11, 290);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(76, 23);
-            comboBox2.TabIndex = 43;
-            comboBox2.Text = "COM4";
-            // 
-            // button10
-            // 
-            button10.Location = new Point(93, 289);
-            button10.Name = "button10";
-            button10.Size = new Size(125, 23);
-            button10.TabIndex = 44;
-            button10.Text = "Определить порт";
-            button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            button11.Location = new Point(224, 290);
-            button11.Name = "button11";
-            button11.Size = new Size(125, 23);
-            button11.TabIndex = 45;
-            button11.Text = "Подключиться . . .";
-            button11.UseVisualStyleBackColor = true;
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Location = new Point(11, 316);
-            label29.Name = "label29";
-            label29.Size = new Size(67, 15);
-            label29.TabIndex = 46;
-            label29.Text = "SMS-центр";
-            // 
-            // textBox12
-            // 
-            textBox12.Location = new Point(11, 334);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(172, 23);
-            textBox12.TabIndex = 47;
-            // 
-            // checkBox14
-            // 
-            checkBox14.AutoSize = true;
-            checkBox14.Location = new Point(198, 336);
-            checkBox14.Name = "checkBox14";
-            checkBox14.Size = new Size(190, 19);
-            checkBox14.TabIndex = 48;
-            checkBox14.Text = "Текст сообщения в транслите";
-            checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(11, 363);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(258, 19);
-            radioButton4.TabIndex = 49;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "Отправлять SMS через E-mail (SMS-шлюз)";
-            radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // textBox13
-            // 
-            textBox13.Location = new Point(11, 404);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(229, 23);
-            textBox13.TabIndex = 51;
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Location = new Point(11, 386);
-            label30.Name = "label30";
-            label30.Size = new Size(129, 15);
-            label30.TabIndex = 50;
-            label30.Text = "SMS-шлюз оператора";
-            // 
-            // button12
-            // 
-            button12.Location = new Point(249, 403);
-            button12.Name = "button12";
-            button12.Size = new Size(139, 23);
-            button12.TabIndex = 52;
-            button12.Text = "Настройки E-mail . . .";
-            button12.UseVisualStyleBackColor = true;
-            // 
-            // textBox10
-            // 
-            textBox10.Location = new Point(249, 140);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(100, 23);
-            textBox10.TabIndex = 32;
-            // 
-            // button13
-            // 
-            button13.Location = new Point(11, 433);
-            button13.Name = "button13";
-            button13.Size = new Size(229, 23);
-            button13.TabIndex = 53;
-            button13.Text = "Отправить пробное сообщение";
-            button13.UseVisualStyleBackColor = true;
-            // 
             // Settings
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1111,7 +1146,7 @@
             ClientSize = new Size(419, 558);
             Controls.Add(splitContainer1);
             Name = "Settings";
-            Text = "Settings";
+            Text = "Настройки приложения";
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
@@ -1128,6 +1163,12 @@
             groupBox1.PerformLayout();
             tabPage4.ResumeLayout(false);
             tabPage4.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             tabPage6.ResumeLayout(false);
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
@@ -1234,5 +1275,8 @@
         private CheckBox checkBox14;
         private TextBox textBox10;
         private Button button13;
+        private Panel panel1;
+        private Panel panel2;
+        private Panel panel3;
     }
 }

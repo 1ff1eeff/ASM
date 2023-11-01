@@ -81,5 +81,22 @@ namespace ASM
                                 "%RET - перенос строки. \r\n" +
                                 "Значения подставляются автоматически.\r\n");
         }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            panel1.Enabled = false;
+            panel2.Enabled = true;
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            panel1.Enabled = true;
+            panel2.Enabled = false;
+        }
+
+        private void checkBox13_CheckedChanged(object sender, EventArgs e)
+        {
+            panel3.Enabled = checkBox13.Checked;
+        }
     }
 }

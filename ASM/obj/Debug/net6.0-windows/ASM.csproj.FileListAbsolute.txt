@@ -24,3 +24,7 @@ C:\Repos\ASM\ASM\obj\Debug\net6.0-windows\ASM.Settings.resources
 C:\Repos\ASM\ASM\obj\Debug\net6.0-windows\ASM.CreateIP.resources
 C:\Repos\ASM\ASM\obj\Debug\net6.0-windows\ASM.CreateMAC.resources
 C:\Repos\ASM\ASM\obj\Debug\net6.0-windows\ASM.CreateService.resources
+C:\Repos\ASM\ASM\obj\Debug\net6.0-windows\ASM.MAvailability.resources
+C:\Repos\ASM\ASM\obj\Debug\net6.0-windows\ASM.MPacketLoss.resources
+C:\Repos\ASM\ASM\obj\Debug\net6.0-windows\ASM.MResponseTime.resources
+C:\Repos\ASM\ASM\obj\Debug\net6.0-windows\ASM.MServicePerformance.resources
